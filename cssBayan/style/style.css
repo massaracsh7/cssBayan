@@ -74,3 +74,12 @@ body {
   transform: rotate(45deg);
 }
 
+.bayan__btn:active~.bayan__wrapper>.bayan__text {
+  color: blue;
+}
+
+.bayan__btn:active~.bayan__wrapper>.bayan__ico {
+  background-image: url('../img/plus-blue.svg');
+  transform: rotate(45deg);
+  opacity: 1;
+}
