@@ -83,3 +83,30 @@ body {
   transform: rotate(45deg);
   opacity: 1;
 }
+
+@media(hover: hover) {
+  .bayan__container:hover .bayan__label {
+    cursor: pointer;
+  }
+
+  .bayan__container:hover .bayan__ico {
+    opacity: 1;
+  }
+
+  .bayan__container:hover .bayan__text {
+    color: black;
+  }
+
+  .bayan__label:hover>.bayan__img {
+    transform: scale(1);
+    width: 11rem;
+    height: 11rem;
+    visibility: visible;
+  }
+
+  .bayan__label:hover .bayan__ico {
+    transform: rotate(45deg);
+    color: black;
+  }
+
+}
