@@ -110,3 +110,33 @@ body {
   }
 
 }
+
+@media (min-width:820px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .bayan {
+    width: 60%;
+  }
+
+  .bayan__title {
+    font-size: 5rem;
+  }
+
+  .bayan__ico {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .bayan__label:hover>.bayan__img {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .bayan__btn:checked~.bayan__img {
+    width: 16rem;
+    height: 16rem;
+  }
+
+}
