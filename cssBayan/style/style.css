@@ -58,3 +58,19 @@ body {
   height: 1rem;
   transition: all 0.7s;
 }
+
+.bayan__btn:checked~.bayan__img {
+  transform: scale(1);
+  width: 11rem;
+  height: 11rem;
+  visibility: visible;
+}
+
+.bayan__btn:checked~.bayan__wrapper>.bayan__text {
+  color: black;
+}
+
+.bayan__btn:checked~.bayan__wrapper>.bayan__ico {
+  transform: rotate(45deg);
+}
+
