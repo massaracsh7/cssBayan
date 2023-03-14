@@ -74,6 +74,10 @@ body {
   transform: rotate(45deg);
 }
 
+.bayan__label:active {
+  opacity: 0.5;
+}
+
 .bayan__btn:active~.bayan__wrapper>.bayan__text {
   color: blue;
 }
